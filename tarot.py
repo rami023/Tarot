@@ -1,45 +1,3 @@
-'''def test(value1,value2):
-    a=value1-2
-    b=value2+2
-    print(a,b)
-t=9
-test(1,3)
-
-def test2(value1,value2):
-    c=value1*0
-    d=value2+2
-    print(c,d)
-    if c==0:
-        print("useless")
-        global t
-        t="bro"
-    else:
-        print("brooo")
-test2(2,5)
-print(t)
-
-import random
-
-situation= ['turbostomped','stomped','rekt','feed by','poked down base']
-bot_sit= ['inting as usual','playing in grey screen mode','going to carry you anyway, what a surprise']
-print(random.choice(situation))
-
-def test3():
-    lane=input("Select your lane")
-    champion=input("select your champion")
-    elo=input("elo")
-    print('It was a long day, finally you get home and boot up your computer to ')
-    print('relax and play your favorite game, league of legends.')
-    print('And you feel it, today is the day you will gain those juicy')
-    print('LP and finally get out of ',elo, 'so you get to champ select')
-    print('pick ',lane, ' and select your trusty ', champion, ' everything is just')
-    print('fine and you know it')
-    print('that, until five minutes into the match you are getting ', random.choice(situation))
-    print('by a bloddy soraka, but not to worry, your bot lane is',random.choice(bot_sit))
-    print('fuck this game')
-
-
-test3()'''
 import random
 ###Reverse Def###
 def reversed():
@@ -114,12 +72,12 @@ def definicion(tirada,orientacion):
         print('todo tipo. Matrimonio frustrado, tentación peligrosa. Peligro de ser')
         print('seducido. Inconducta, libertinaje y debilidad. Peleas, infidelidad.')
         print('Inestabilidad emocional.')
-    elif tirada == 'El Auto' and orientacion == 'normal':
+    elif tirada == 'El Carro' and orientacion == 'normal':
         print('[VII] El Carro Triunfo, victoria, superación de obstáculos, esperanza,')
         print('conquista. Buena noticia inesperada. Gran autocontrol, habilidad para')
         print('determinar el propio destino. Gran fuerza física y mental. Velocidad.')
         print('Viaje.')
-    elif tirada == 'El Auto' and orientacion == 'reversed':
+    elif tirada == 'El Carro' and orientacion == 'reversed':
         print('Desorden generalizado. Enfermedad. Peligroso descontrol. Peligro de un')
         print('accidente violento. Malas noticias. Fatiga. Falta de tacto. Mala conducta.')
         print('Actividad afiebrada y sin reposo.')
@@ -248,11 +206,17 @@ def definicion(tirada,orientacion):
         print('inmovilización. Locura. Desborde psíquico y/o emocional. Viaje')
         print('obstaculizado.')
 
+
+title = input('Como te llamas?\n')
+
+print('''\n\n\n\n------- Nombre--------\n\n'''+title+'\n\n')
+
+
 ##TEST APP
 #rev1='reversed'
 #tarot1='El Mago'
 #definicion(tarot1,rev1)
-tarot= ['El Mago','La Sacerdotista','La Emperatriz','El Emperador','El Papa','Los Enamorados','El Auto','La Justicia','El Ermitaño','La Rueda de La Fortuna','La Fuerza','El Colgado','La Muerte','La Templanza','El Diablo','La Torre','La Estrella','La Luna','El Sol','El Juicio','El Mundo','El Loco']
+tarot= ['El Mago','La Sacerdotista','La Emperatriz','El Emperador','El Papa','Los Enamorados','El Carro','La Justicia','El Ermitaño','La Rueda de La Fortuna','La Fuerza','El Colgado','La Muerte','La Templanza','El Diablo','La Torre','La Estrella','La Luna','El Sol','El Juicio','El Mundo','El Loco']
 ### EL PASADO###
 print('---EL PASADO---')
 tarot1=random.choice(tarot)
